@@ -15,7 +15,7 @@ public class OAPortlet extends GenericPortlet{
 			throws PortletException, IOException {
 	    response.setContentType("text/html;charset=utf-8");
 		response.getWriter().println("hello world->doEdit");
-		System.out.println("hello world->doEdit");
+		//System.out.println("hello world->doEdit");
 		response.getWriter().println("hello world->doHelp");		
 	}
 
